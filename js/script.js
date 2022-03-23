@@ -5,6 +5,6 @@
 /**
  * Alerts "Hello, World!"
  */
-function onButtonClick() {
+function calculate() {
   alert("Hello, World!")
 }
