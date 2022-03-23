@@ -4,7 +4,7 @@
 
 'use strict'
 /**
- * Alerts "Hello, World!"
+ * Calculates area and perimeter of the user's rectangle.
  */
 function calculate() {
   const length = parseInt(document.getElementById("lengthinput").value)
