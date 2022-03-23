@@ -1,10 +1,14 @@
 // Cristiano
-// ICS2O-Unit0-00-HTML
-// Date 2022
+// ICS2O-Unit2-04-HTML
+// March 23 2022
 
+'use strict'
 /**
  * Alerts "Hello, World!"
  */
 function calculate() {
-  alert("Hello, World!")
+  const length = parseInt(document.getElementById("lengthinput").value)
+  const width = parseInt(document.getElementById("widthinput").value)
+  document.getElementById("perimeteroutput").innerHTML = "<p>The perimeter of this rectangle is " + ((length * 2) + (width * 2)) + "cm</p>"
+  document.getElementById("areaoutput").innerHTML = "<p>The area of this rectangle is " + (length * width) + "cm²</p>"
 }
