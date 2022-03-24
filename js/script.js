@@ -4,10 +4,10 @@
 
 'use strict'
 /**
- * Calculates area and perimeter of the user's triangle.
+ * Calculates area of the user's triangle.
  */
 function calculate() {
-  const length = parseInt(document.getElementById("lengthinput").value)
-  const width = parseInt(document.getElementById("widthinput").value)
-  document.getElementById("areaoutput").innerHTML = "<p>The area of this triangle is " + (length * width / 2) + "cm²</p>"
+  const base = parseInt(document.getElementById("baseinput").value)
+  const height = parseInt(document.getElementById("heightinput").value)
+  document.getElementById("areaoutput").innerHTML = "<p>The area of this triangle is " + (base * height / 2) + "cm²</p>"
 }
